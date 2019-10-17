@@ -1,3 +1,5 @@
+//#include "Vector.h" -- does not work
+
 namespace N
 {
     class MatrixArray
@@ -6,6 +8,7 @@ namespace N
             MatrixArray();
         private:
             int size;
+            Vector* vec; // does not work
     };
 
 }
